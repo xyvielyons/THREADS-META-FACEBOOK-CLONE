@@ -3,13 +3,13 @@ import { Inter } from 'next/font/google'
 import React from 'react'
 import Topbar from '@/components/shared/Topbar'
 import Bottombar from '@/components/shared/Bottombar'
-import LeftSidebar from '@/components/shared/LeftSideBar'
+import LeftSidebar from '@/components/shared/LeftSidebar'
 import RightSidebar from '@/components/shared/RightSidebar'
 
 import '../globals.css'
 
 export const metadata = {
-    title:'Threads',
+    title:'Circlify',
     description:`A Nextjs Meta Threads clone`
 }
 

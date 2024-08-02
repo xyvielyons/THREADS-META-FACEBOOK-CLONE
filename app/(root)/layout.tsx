@@ -22,7 +22,7 @@ function RootLayout({children}:{children:React.ReactNode}) {
         <html lang="en">
             <body className={`${inter.className} bg-dark-1`}>
               <Topbar/>
-                  <main>
+                  <main className='flex flex-row'>
                     <LeftSidebar/>
                           <section className='main-container'>
                             <div className="w-full max-w-4xl">

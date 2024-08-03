@@ -9,7 +9,7 @@ import RightSidebar from '@/components/shared/RightSidebar'
 import '../globals.css'
 
 export const metadata = {
-    title:'Circlify',
+    title:'Threads',
     description:`A Nextjs Meta Threads clone`
 }
 

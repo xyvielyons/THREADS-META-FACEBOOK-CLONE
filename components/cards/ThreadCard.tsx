@@ -113,17 +113,19 @@ function ThreadCard({
 
                 </div>
 
-                {/* DeleteThreads */}
 
                 {/* show Comment Logos */}
-
-                {!isComment && community && (
+               
+            </div>
+            
+        </div>
+        {!isComment && community && (
                     <Link
                     href={`/communities/${community.id}`}
                     className='mt-5 flex items-center'>
                         <p className='text-subtle-medium text-gray-1'>
                             {formatDateString(createdAt)}
-                            {community.name} Community
+                           {" "} - {community.name} Community
                         </p>
                         <Image
                          src={community.image}
@@ -134,8 +136,6 @@ function ThreadCard({
                         />
                     </Link>
                 )}
-            </div>
-        </div>
 
     </article>
   )
